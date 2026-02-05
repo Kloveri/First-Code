@@ -1,9 +1,32 @@
+
 body {
-    color: #ed9eba;
+    color: #ffffff;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center; 
     align-items: center;     
     height: 100vh;           
     margin: 0;
+    background-image:url('https://github.com/Kloveri/First-Code/blob/main/Img/sea.jpg?raw=true');
+    font-size: 24;
+
+}
+
+.part{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* 阴影 */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Great Vibes';
+ 
+}
+
+.a { 
+    width: 200px;
+    height: auto;
 }
