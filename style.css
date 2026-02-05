@@ -1,1 +1,9 @@
-body{baclground-color:#ed9eba}
+body {
+    background-color: #ed9eba;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;
+}
