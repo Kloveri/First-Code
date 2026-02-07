@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      #message {
+      display: none;
+      }
+    </style>
 </head>
 <body>
     <h1>I Love ThreeThree~</h1>
         <div class="part">
             <p>Precious Memory~</p>
-            <img src=".\Img\firstphoto.jpg" class="a" alt="Love">
-    <button type='button'> Clip to Love </button>
+            <img src="https://github.com/Kloveri/First-Code/blob/main/Img/firstphoto.jpg?raw=true" class="a" alt="Love">
+    <button type='button' class='buttonfirst' id="showMessageButton"> Clip to Love </button>
+    <p id="message">我爱你老婆！</p>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var button = document.getElementById('showMessageButton');
+        var message = document.getElementById('message');
+          button.addEventListener('click', function() {
+            message.style.display = 'block';
+          
+        });
+      });
+    </script>
 </body>
 </html>
